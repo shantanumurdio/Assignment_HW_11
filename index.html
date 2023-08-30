@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11.Homework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="TipCalculator">
+        <h1>Charle's Tip Calculator</h1>
+        <div id="bill">
+            <label for="">How much was your bill? <br> Rs.</label>
+             <input type="number" id="billAmount">
+        </div>
+
+        <div id="service">
+            <label for="">How was your service?</label> <br>
+            <select name="" id="sService">
+                <option disabled="" selected="" value="">Choose an option</option>
+                <option value="0.3">30% - Outstanding</option>
+                <option value="0.2">20% - Good</option>
+                <option value="0.15">15% - It was okay</option>
+                <option value="0.1">10% - Bad</option>
+                <option value="0.05">5% - Terrible</option>
+            </select>
+        </div>
+
+        <div id="countOfPeople">
+            <label for="">How many people are sharing the bill?</label> <br>
+            <input type="number" id="count" > people
+        </div>
+          <button id="calculate">Calculate!</button>
+          <label for="tip" style="text-align:center;width: 100%;" id="tiplabel" >
+            Tip Amount<br/>
+            <input type="text" id="totaltip" style="text-align:center ;" >
+            <h2>Thank you Visit Again.</h2>
+          </label>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
